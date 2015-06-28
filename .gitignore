@@ -1,0 +1,8 @@
+*.sublime*
+.vagrant
+chef/cookbooks/
+node_modules/
+npm-debug.log
+.DS_Store
+tmp/
+logs/*.log
