@@ -1,10 +1,10 @@
 {
-  "name": "webeer-utils",
+  "name": "etl-utils",
   "version": "0.0.1",
-  "description": "utils procedures to build webeer content",
-  "main": "web.js",
+  "description": "utils procedures to build create data integrators",
+  "main": "index.js",
   "scripts": {
-    "test": "make"
+    "test": "./node_modules/mocha/bin/mocha --require test/support/env --reporter spec --check-leaks test/lib/"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,18 @@
   },
   "homepage": "https://github.com/brunoguerra/node-utils-samples",
   "dependencies": {
-    "async": "^1.2.1"
+    "async": "^1.2.1",
+    "selectn": "^0.9.6"
+  },
+  "devDependencies": {
+    "bunyan": "^1.3.5",
+    "chai": "^2.0",
+    "chai-as-promised": "^4.2",
+    "debug": "^2.1.1",
+    "faker": "^2.1.2",
+    "mocha": "^2.2.5",
+    "sinon": "^1.13",
+    "sinon-chai": "^2.7",
+    "time-grunt": "^1.1.1"
   }
 }
