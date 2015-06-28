@@ -1,0 +1,25 @@
+{
+  "name": "webeer-utils",
+  "version": "0.0.1",
+  "description": "utils procedures to build webeer content",
+  "main": "web.js",
+  "scripts": {
+    "test": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunoguerra/node-utils-samples.git"
+  },
+  "keywords": [
+    "samples"
+  ],
+  "author": "Bruno Guerra <brunoguerrait@gmail.com> (brunoguerra.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoguerra/node-utils-samples/issues"
+  },
+  "homepage": "https://github.com/brunoguerra/node-utils-samples",
+  "dependencies": {
+    "async": "^1.2.1"
+  }
+}
