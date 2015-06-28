@@ -1,6 +1,6 @@
 {
   "name": "etl-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "utils procedures to build creative data integratons",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brunoguerra/node-utils-samples.git"
+    "url": "https://github.com/brunoguerra/node-etl-utils.git"
   },
   "keywords": [
     "samples"
@@ -16,9 +16,9 @@
   "author": "Bruno Guerra <brunoguerrait@gmail.com> (brunoguerra.github.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brunoguerra/node-utils-samples/issues"
+    "url": "https://github.com/brunoguerra/node-etl-utils/issues"
   },
-  "homepage": "https://github.com/brunoguerra/node-utils-samples",
+  "homepage": "https://github.com/brunoguerra/node-etl-utils",
   "dependencies": {
     "async": "^1.2.1",
     "selectn": "^0.9.6"
