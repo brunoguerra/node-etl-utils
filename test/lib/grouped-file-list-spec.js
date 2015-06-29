@@ -4,10 +4,9 @@ var t          = require('../support/test')
 
 describe('gfs-list-images', function () {
   it('list all file into object', function (done) {
-    gfs.list(/(\w)(\d+)[._]*(\d*)/, __dirname+"/../fixtures/images/", check)
+    gfs.list(/(\w)(\d+)[._]*(\d+)?/, __dirname+"/../fixtures/images/", check)
 
     function check(err, result) {
-      console.log(result)
       expect(err).to.not.exits;
       expect(result).to.have.deep.property('all')
       done(err)
