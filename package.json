@@ -1,6 +1,6 @@
 {
   "name": "etl-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "utils procedures to build creative data integratons",
   "main": "index.js",
   "scripts": {
